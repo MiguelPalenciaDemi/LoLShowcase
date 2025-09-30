@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  flex: 1 1 calc(25% - 16px); /* 4 columnas, menos el gap */
+  aspect-ratio: 0.608;
+
+  background-size: cover; /*La imagen ocupa todo el fondo*/
+  background-repeat: no-repeat; /* Evita que se repita */
+  background-position: center; /* Centra la imagen */
+
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+
+  cursor: pointer;
+
+  transition: 0.1s ease-in-out;
+}
+
+.splashArt {
+  aspect-ratio: 0.608;
+  width: 100%;
+}
+.item:hover {
+  transform: scale(1.1);
+}
+
+.name {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+
+  padding: 6px 12px;
+  /* padding-bottom: 20px; */
+  /* margin-bottom: 2px; */
+
+  background: rgba(31, 40, 51, 0.6);
+  border-bottom-left-radius: 15px; /* redondeo de la cajita */
+  border-bottom-right-radius: 15px; /* redondeo de la cajita */
+
+  color: white;
+  font-size: clamp(12px, 2vw, 25px);
+
+  font-family: "Anton", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
+  text-align: start;
+}
