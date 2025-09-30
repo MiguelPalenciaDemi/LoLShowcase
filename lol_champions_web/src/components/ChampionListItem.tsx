@@ -10,16 +10,7 @@ const ChampionListItem: React.FC<{ champion: Champion }> = ({ champion }) => {
   }
 
   return (
-    <li
-      className={classes.item}
-      onClick={clickHandler}
-      // style={{
-      //   backgroundImage:
-      //     "url(" +
-      //     `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion.id}_0.jpg` +
-      //     ")",
-      // }}
-    >
+    <li className={classes.item} onClick={clickHandler}>
       <div className={classes.splashArt}>
         <img
           src={`https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion.id}_0.jpg`}
