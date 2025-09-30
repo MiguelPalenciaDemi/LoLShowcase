@@ -1,7 +1,15 @@
 .list {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  gap: 16px; /* espacio entre cards */
+  gap: 16px;
+  justify-content: space-evenly; */
+  /* espacio entre cards */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+  gap: 16px;
+
+  width: 100%;
   list-style: none;
   padding: 0;
   margin: 0;
