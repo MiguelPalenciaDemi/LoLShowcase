@@ -1,0 +1,23 @@
+.list {
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-evenly; */
+  /* espacio entre cards */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+  gap: 16px;
+
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}

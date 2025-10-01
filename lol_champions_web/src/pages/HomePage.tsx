@@ -1,9 +1,9 @@
-import ChampionList from "../components/ChampionList";
+import ChampionList from "../components/ChampionList/ChampionList";
 
 export default function HomePage() {
   return (
     <>
-      <h1>Home Page</h1>
+      <h1>Browse your champ</h1>
       <ChampionList />
     </>
   );
