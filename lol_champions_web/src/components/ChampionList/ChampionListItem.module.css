@@ -10,7 +10,6 @@
 
   overflow: hidden;
   flex: 1 1 clamp(250px, 23%, 900px);
-  
 
   border-radius: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
@@ -45,7 +44,7 @@
 
   padding: 6px 12px;
 
-  background: rgba(31, 40, 51, 1);
+  background: rgba(28, 28, 30, 1);
   border-bottom-left-radius: 15px; /* redondeo de la cajita */
   border-bottom-right-radius: 15px; /* redondeo de la cajita */
 

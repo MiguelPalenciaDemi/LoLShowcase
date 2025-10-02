@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  height: 90vh;
+
+  background-size: cover;
+  background-position: top center;
+}
+
+.backdrop {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 24.44%,
+    rgba(0, 0, 0, 0.6) 56.63%
+  );
+  position: absolute;
+  inset: 0px;
+  z-index: 0;
+}
+
+.info {
+  position: relative;
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 7%;
+  text-align: left;
+}
+.championName {
+  margin-block-end: 0;
+  font-size: 5em;
+}
+
+.championSubtitle {
+  font-size: 2.5em;
+  color: rgba(190, 120, 255, 1);
+}
+
+.description {
+  width: 80%;
+  text-align: left;
+  line-height: 2em;
+  font-size: max(0.9em, 1.2vw);
+}
